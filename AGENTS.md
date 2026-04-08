@@ -134,7 +134,7 @@ You don't need to do anything about them unless being asked.
 
 ### `SKILL.md`
 
-Index file listing all skills with brief descriptions. Name should be in `kebab-case`.
+Index file listing all skills with brief descriptions of when and why to use them. Name should be in `kebab-case`.
 
 The version should be the date of the last sync.
 
@@ -212,13 +212,21 @@ At the end of the file, include the reference links to the source documentation.
 
 ```markdown
 ---
-name: {name}
-description: {description}
+name: concept-name
+description: >
+  [PRIMARY TRIGGER SENTENCE: What this skill does + when to use it, 1-2 sentences.]
+  
+  Use this skill whenever: [list specific user phrases, task types, file types, or 
+  contexts that should trigger it]. Trigger even when the user doesn't use the exact 
+  skill name — e.g., if they mention [synonyms / related terms / adjacent use cases].
+  
+  Do NOT use for: [anti-triggers — what this skill is NOT for, to prevent false positives].
 ---
+
 
 # {Concept Name}
 
-Brief description of what this skill covers.
+Brief one-paragraph summary of what this skill enables. Focus on **outcomes**, not mechanics.
 
 ## Usage
 

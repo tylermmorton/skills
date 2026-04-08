@@ -43,3 +43,9 @@
 [submodule "sources/nitro"]
 	path = sources/nitro
 	url = https://github.com/nitrojs/nitro
+[submodule "sources/mage"]
+	path = sources/mage
+	url = https://github.com/magefile/mage
+[submodule "sources/cypress"]
+	path = sources/cypress
+	url = https://github.com/cypress-io/cypress
